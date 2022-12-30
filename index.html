@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Movies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <header class="p-3">
+        <div class="nav-container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 link-light">Home</a></li>
+              <li>
+                <a href="#" class="nav-link px-2 link-light dropdown-toggle genres">Categories</a>
+                <ul class="unfold text-small tags">
+                </ul>
+            </li>
+              <!-- <li><a href="#" class="nav-link px-2 link-light">Customers</a></li> -->
+              <!-- <li><a href="#" class="nav-link px-2 link-light">Products</a></li> -->
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 form" role="search">
+              <input type="search" class="form-control search" placeholder="Search...">
+            </form>
+          </div>
+        </div>
+      </header>
+
+    <div class="showSign">
+        
+    </div>
+
+    <div class="container">
+        <div class="grid">
+        </div>
+        <div class="page">
+            <button class="previus buttons">Previus</button>
+            <span class="current"></span>
+            <button class="next buttons">Next</button>
+        </div>
+    </div>  
+
+    <script src="main.js"></script>
+    <script src="bootstrap-5.0.2/dist/js/bootstrap.js"></script>
+</body>
+</html>
