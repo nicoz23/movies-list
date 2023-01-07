@@ -37,8 +37,8 @@ body {
 
 .card {
     position: relative;
-    height: 300px;
-    width: 225px !important;
+    height: 375px !important;
+    width: 300px !important;
     text-align: center; 
     transition:ease-in 0.1s;
     filter: brightness(100%);
